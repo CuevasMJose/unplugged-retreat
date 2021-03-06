@@ -376,7 +376,7 @@ aside {
 
 @media only screen and (min-width: 768px) {
   /*Tablet Styles Here*/
-}
+
 
 /*General Styles*/
 .content-wrapper {
@@ -505,12 +505,66 @@ footer .copyright {
 
 .faq h2 {
   width: 100%;
+  }
 }
 
 
 @media only screen and (min-width: 1200px) {
   /*Desktop Styles Here*/
+
+.content-wrapper {
+    max-width: 960px;
+  }
+
+/*Hero Area*/
+.hero-area h1 {
+  width: 60%;
 }
+
+/*Aside*/
+aside .content-wrapper {
+  justify-content: space-around;
+}
+
+aside .content-wrapper .form-description,
+aside .content-wrapper .form {
+  width: 30%;
+}
+
+/*Features*/
+.features h1 {
+  width: 90%;
+}
+
+.features article {
+  flex-basis: 33%;
+}
+
+/*Reviews*/
+.reviews article div {
+  width: 42%;
+}
+
+/*===========================================================================
+-------------------------------About Page------------------------------------
+===========================================================================*/
+
+.mission h1,
+.contact-section .content-wrapper h1 {
+  width: 95%;
+}
+
+/*==========================================================================
+-------------------------------FAQ------------------------------------------
+===========================================================================*/
+
+.faq h1 {
+  width: 100%;
+}
+
+}
+
+
 
 /* ==========================================================================
    Print styles.
